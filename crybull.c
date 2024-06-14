@@ -6,7 +6,7 @@ int main( int argc , char ** argv ) {
 	if (argc==1) {
 		printf("Crybull classic - cryptography - Linux 64-bits by leonardo.labolida.com	(2024) \n" ) ;
 		printf("This program is released under GNU GPL v3 license - https://www.gnu.org/licenses \n" ) ;
-		printf("Missing parameters. Expected: ACTION(ENCODE|DECODE) PASSWORD INPUT-FILENAME OUTPUT-FILENAME \n" ) ;
+		printf("Missing parameters. Expected: PASSWORD INPUT-FILENAME OUTPUT-FILENAME \n" ) ;
 		printf("  Example:   \n" ) ;
 		printf("	crybull MySecretPassword  secretMessage.txt  encryptedMessage.txt	\n" ) ;
 		printf("	crybull MySecretPassword  encryptedMessage.txt  secretMessage.txt	\n\n" ) ;
